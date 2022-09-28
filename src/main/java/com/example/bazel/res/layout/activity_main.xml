@@ -14,9 +14,7 @@
       android:textSize="32dp"
       android:textColor="@color/bazel_green"
       android:text="@string/thinking_face"/>
-<androidx.cardview.widget.CardView>
 
-</androidx.cardview.widget.CardView>
   <Button
       android:id="@+id/clickMeButton"
       android:layout_width="wrap_content"
@@ -26,4 +24,21 @@
       android:textColor="@color/color_on_bazel_green"
       android:layout_marginTop="16dp"
       android:text="@string/click_me_button"/>
+
+
+<androidx.cardview.widget.CardView 
+      android:id="@+id/card"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+
+       <TextView
+      android:id="@+id/cardTextView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:textSize="32dp"
+      android:textColor="@color/bazel_green"
+      android:text="Replace with whatever you like"/>
+
+</androidx.cardview.widget.CardView>
 </LinearLayout>
