@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:padding="16dp"
     android:orientation="vertical"
     android:gravity="center_vertical"
@@ -14,9 +15,7 @@
       android:textSize="32dp"
       android:textColor="@color/bazel_green"
       android:text="@string/thinking_face"/>
-<androidx.cardview.widget.CardView>
 
-</androidx.cardview.widget.CardView>
   <Button
       android:id="@+id/clickMeButton"
       android:layout_width="wrap_content"
